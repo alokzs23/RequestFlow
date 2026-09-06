@@ -1,6 +1,8 @@
 # RequestFlow
 
-A full-stack request/ticket management system (MERN). Employees submit requests, managers move them through a workflow, everyone sees a timeline and dashboard analytics.
+RequestFlow is an internal request management tool — think a lightweight version of Jira or a company helpdesk — where employees submit requests (IT, leave, purchases, access) and managers move them through a defined approval workflow. Every action is captured in an audit-trail-style activity timeline, and a dashboard surfaces request volume and status breakdowns using MongoDB's aggregation pipeline.
+
+Built to demonstrate practical full-stack patterns: JWT-based role authentication, a server-enforced state machine (not just UI-level status toggles), embedded activity logs, and MongoDB text search — all wired together in a clean MERN stack.
 
 ## Features
 
